@@ -17,3 +17,7 @@ In the simulation, I observed significant differences in the number of rounds re
 - **Push-Pull Protocol**: This was the most efficient protocol, requiring the fewest rounds. Combining both the push and pull strategies, it enables faster spread by allowing both informed and uninformed agents to participate actively in the dissemination process.
 
 These results indicate that the push-pull protocol is the most efficient for complete rumor dissemination, as it optimizes the spread by combining both passive and active approaches.
+
+# Project 2: [Life Expectancy Data Analysis](life-expectancy-data-analysis/)
+
+This exercise explores the correlation between life expectancy and education levels using real-world data from Kaggle. The workflow includes data cleaning, exploratory data analysis (EDA), and reporting findings. The goal is to uncover insights into how education impacts life expectancy through statistical analysis and visualization.
