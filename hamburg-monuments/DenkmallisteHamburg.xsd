@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+ <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+ <xs:element name="DenkmallisteHamburg">
+   <xs:complexType>
+     <xs:sequence>
+       <xs:element name="Denkmal" minOccurs="0" maxOccurs="unbounded">
+         <xs:complexType>
+           <xs:sequence>
+             <xs:element name="ID" type="xs:string"/>
+             <xs:element name="Belegenheit" type="xs:string"/>
+             <xs:element name="Adressen" type="xs:string" minOccurs="0"/>
+             <xs:element name="Stadtteil" minOccurs="0">
+		  <xs:simpleType>
+		     <xs:restriction base="xs:string">
+		       <xs:pattern value="(\w+(,\w+)*)"/>
+		     </xs:restriction>
+		   </xs:simpleType>
+             </xs:element>
+             <xs:element name="Bezirk" minOccurs="0">
+		  <xs:simpleType>
+		     <xs:restriction base="xs:string">
+		       <xs:pattern value="(\w+(,\w+)*)"/>
+		     </xs:restriction>
+		   </xs:simpleType>
+             </xs:element>
+             <xs:element name="Typ" type="xs:string" minOccurs="0"/>
+             <xs:element name="Entwurf" type="xs:string" minOccurs="0"/>
+             <xs:element name="Datierung" type="xs:string" minOccurs="0"/>
+             <xs:element name="Bezeichnung" type="xs:string" minOccurs="0"/>
+             <xs:element name="Ensembles" type="xs:string" minOccurs="0"/>
+
+             <xs:element name="DLNummer_Alt" minOccurs="0">
+		  <xs:simpleType>
+		     <xs:restriction base="xs:string">
+		       <xs:pattern value="([0-9]+(,[0-9]+)*)"/>
+		     </xs:restriction>
+		   </xs:simpleType>
+             </xs:element>
+
+            <xs:element name="Art">
+		  <xs:simpleType>
+		     <xs:restriction base="xs:string">
+		       <xs:enumeration value="Objekt"/>
+		       <xs:enumeration value="Ensemble"/>
+		     </xs:restriction>
+		   </xs:simpleType>
+            </xs:element>
+
+            <xs:element name="XCenter_EPSG25832" type="xs:decimal" minOccurs="0"/>
+            <xs:element name="YCenter_EPSG25832" type="xs:decimal" minOccurs="0"/>
+
+           </xs:sequence>
+         </xs:complexType>
+       </xs:element>
+     </xs:sequence>
+   </xs:complexType>
+ </xs:element>
+
+
+ </xs:schema>
