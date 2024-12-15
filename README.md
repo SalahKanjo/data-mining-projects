@@ -25,3 +25,7 @@ However, other factors like income composition of resources and GDP show stronge
 GDP also has a moderate positive correlation with life expectancy, indicating that wealthier nations tend to have higher life expectancy, likely due to greater investments in healthcare, education, and infrastructure. No clear relationship was found between total educational enrollment and life expectancy; the data showed high variability and did not explain life expectancy trends, implying that education may influence life expectancy indirectly through factors like economic growth, awareness, or healthcare access.
 
 ![Life Expectancy Data Analysis](life-expectancy-data-analysis/EDA_plots/output1.png)
+
+# Project 3: [Market Basket Analysis](market-basket-analysis/)
+
+This project performs Market Basket Analysis (MBA) to understand customer purchasing behavior. Using transactional data from the "Bread Basket" dataset, we implemented the Apriori algorithm to identify frequent itemsets and generate association rules. The workflow includes data preparation, exploratory data analysis (EDA), and visualization. The results reveal associations between commonly purchased items, providing insights for strategies like product placement, targeted promotions, and cross-selling. The analysis highlights how data-driven insights can enhance decision-making in retail and e-commerce.
