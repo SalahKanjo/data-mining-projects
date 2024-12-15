@@ -19,5 +19,9 @@ In the simulation, I observed significant differences in the number of rounds re
 These results indicate that the push-pull protocol is the most efficient for complete rumor dissemination, as it optimizes the spread by combining both passive and active approaches.
 
 # Project 2: [Life Expectancy Data Analysis](life-expectancy-data-analysis/)
+This exercise examines the correlation between life expectancy and education levels using real-world data from Kaggle. After data cleaning and exploratory analysis, we found that the UN's data on student enrollment does not provide clear insights when combined with the Kaggle dataset, preventing definitive conclusions about the direct impact of education on life expectancy. 
 
-This exercise explores the correlation between life expectancy and education levels using real-world data from Kaggle. The workflow includes data cleaning, exploratory data analysis (EDA), and reporting findings. The goal is to uncover insights into how education impacts life expectancy through statistical analysis and visualization.
+However, other factors like income composition of resources and GDP show stronger correlations with life expectancy. There is a strong positive linear relationship between income composition and life expectancy, suggesting that better income distribution and equitable access to resources are associated with higher life expectancy. 
+GDP also has a moderate positive correlation with life expectancy, indicating that wealthier nations tend to have higher life expectancy, likely due to greater investments in healthcare, education, and infrastructure. No clear relationship was found between total educational enrollment and life expectancy; the data showed high variability and did not explain life expectancy trends, implying that education may influence life expectancy indirectly through factors like economic growth, awareness, or healthcare access.
+
+![Life Expectancy Data Analysis](life-expectancy-data-analysis/EDA_plots/output1.png)
