@@ -33,3 +33,4 @@ This project performs Market Basket Analysis (MBA) to understand customer purcha
 ![Market Basket Analysis](market-basket-analysis/image.png)
 
 # Project 4: [Historical Buildings in Hamburg](hamburg-monuments/)
+This project applies clustering techniques to analyze historical monuments in Hamburg, Germany. The goal is to group monuments based on their geographical locations and explore patterns within the dataset. The elbow method is used to determine the optimal number of clusters, and additional clustering is performed based on historical site dates and textual similarities in descriptions. This approach helps uncover meaningful relationships and spatial distributions within the data.
